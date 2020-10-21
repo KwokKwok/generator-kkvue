@@ -1,0 +1,30 @@
+{
+  "name": "generator-kkvue",
+  "version": "0.0.2",
+  "description": "KwokKwok's Vue scaffold generator",
+  "homepage": "",
+  "author": {
+    "name": "郭垒",
+    "email": "kwokglory@outlook.com",
+    "url": "https://kwok.ink/"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "vue",
+    "scaffold",
+    "yeoman-generator"
+  ],
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^2.0.1",
+    "chalk": "^2.1.0",
+    "yosay": "^2.0.1"
+  },
+  "repository": "KwokKwok/generator-kkvue",
+  "license": "Apache-2.0"
+}
