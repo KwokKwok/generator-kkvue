@@ -89,7 +89,7 @@ function encodeQuery(query: any) {
 }
 
 export default class Http {
-    static async get(url: string, params: any): Promise<HttpResponse> {
+    static async get(url: string, params: any = null): Promise<HttpResponse> {
         return await service.get(`${url}/${encodeQuery(params)}`);
     };
     static async post(url: string, data: any): Promise<HttpResponse> {

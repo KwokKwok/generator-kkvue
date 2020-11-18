@@ -26,7 +26,7 @@ yarn build
 1. 增加`utils`文件夹
     1. 增加`Token`类，有`set`、`get`、`remove`方法，用于Cookie操作登录凭据
     1. 增加`Http`类，需要安装`axios`
-1. 添加`Lato`字体到`assets`文件夹，并在`App.vue`中导入
+1. 添加字体到`assets`文件夹，并在`App.vue`中导入
 1. 修改`App.vue`，修改基础样式。
 1. 修改`HelloWorld.vue`、`Home.vue`，调整内容和样式
 1. 删除`About.vue`，修改`router/index.ts`

@@ -17,4 +17,30 @@ const router = new VueRouter({
   routes
 })
 
+router.beforeEach(async (to, from, next) => {
+  const toPath = to.path;
+  // if (to.path != ("/login")) {
+  //   if (!Getters.loginUser) {
+  //     try {
+  //       await User.getLoginInfo();
+  //       next({ path: to.fullPath, replace: true });
+  //       return;
+  //     } catch {
+
+  //     }
+  //     if (!Getters.loginUser) {
+  //       next(`/login?redirect=${toPath}`);
+  //       return;
+  //     }
+  //   }
+  // }
+  // next();
+
+  if (to.meta.title) {
+    document.title = `${to.meta.title}`
+  } else {
+    document.title = process.env.VUE_APP_NAME
+  }
+});
+
 export default router

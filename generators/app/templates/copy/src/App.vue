@@ -6,7 +6,7 @@
 
 <style lang="scss">
 #app {
-  font-family: Lato, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Futura Light, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -23,7 +23,11 @@
 }
 
 @font-face {
-  font-family: "Lato";
-  src: url("./assets/lato.ttf");
+  font-family: "Futura Light";
+  src: url("./assets/Futura Light.ttf");
+}
+@font-face {
+  font-family: "Futura";
+  src: url("./assets/Futura.ttf");
 }
 </style>

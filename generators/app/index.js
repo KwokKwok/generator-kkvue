@@ -87,6 +87,7 @@ module.exports = class extends Generator {
     ];
 
     this.props = await this.prompt(prompts);
+    this.props.appname = this.options.appname;
     this._yosay("安装依赖，请稍候...");
   }
 
