@@ -34,7 +34,7 @@ router.beforeEach(async (to, from, next) => {
   //     }
   //   }
   // }
-  // next();
+  next();
 
   if (to.meta.title) {
     document.title = `${to.meta.title}`
