@@ -2,6 +2,10 @@
 
 > KwokKwok&#39;s Vue template generator
 
+- 📦 Vite + TypeScript + Vue Router + Sass + Axios
+- 💡 SvgIcon (*svg sprite already configured*)
+- 🛠️ Basic styles/components
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-kkvue using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
@@ -16,6 +20,8 @@ Then generate your new project:
 ```bash
 yo kkvue ${your-app-name}
 ```
+
+**`app-name` will be used for create dir, and the project name can be another (can include space)*
 
 ## Getting To Know Yeoman
 

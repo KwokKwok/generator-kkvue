@@ -5,28 +5,24 @@
   </div>
 </template>
 
-<script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
 
-@Component
-export default class HelloWorld extends Vue {
-  @Prop() private msg!: string;
-}
+<script lang="ts">
+import { ref, defineComponent } from "vue";
+
+export default defineComponent({
+  name: "HelloWorld",
+  props: {
+    msg: {
+      type: String,
+      required: true,
+    },
+  },
+});
 </script>
 
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+h1,
+h2 {
+  font-weight: normal;
 }
 </style>

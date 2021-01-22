@@ -1,8 +1,7 @@
-import Vue from 'vue';
-import { Repo } from './repo/Repo';
+import Repo from './repo/Repo';
 
-declare module 'vue/types/vue' {
-    interface Vue {
-        $repo: Repo
+declare module '@vue/runtime-core' {
+    interface ComponentCustomProperties {
+        $repo: Repo;
     }
 }

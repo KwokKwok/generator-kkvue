@@ -57,14 +57,8 @@ module.exports = class extends Generator {
       {
         type: "input",
         name: "projectName",
-        message: "项目名称",
+        message: "项目名称(用于HTML标题等，可含空格)",
         default: this.options.appname
-      },
-      {
-        type: "input",
-        name: "projectName",
-        message: "项目名称",
-        default: "app"
       },
       {
         type: "input",
@@ -81,7 +75,7 @@ module.exports = class extends Generator {
       {
         type: "input",
         name: "wsPort",
-        message: "Webserver端口",
+        message: "WebServer端口",
         default: 8080
       }
     ];
