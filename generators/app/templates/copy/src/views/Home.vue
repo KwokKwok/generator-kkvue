@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
+  <div class="text-center overflow-hidden select-none">
     <img
-      class="logo"
+      class="w-80 m-36 overflow-hidden inline-block shadow-xl rounded-md"
       alt="KwokStudio logo"
       src="../assets/logo.png"
     >
@@ -30,18 +30,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.logo {
-  user-select: none;
-  width: 300px;
-  margin: 130px;
-  overflow: hidden;
-  border-radius: 8px;
-  box-shadow: 0px 2px 12px 5px rgba($color: #000000, $alpha: 0.05);
-}
-
 svg {
-  margin-top: 100px;
-  height: 80px;
-  width: 80px;
+  @apply inline-block w-28 h-28 mt-16;
 }
 </style>

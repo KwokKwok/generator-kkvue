@@ -2,7 +2,7 @@
 
 > KwokKwok&#39;s Vue template generator
 
-- 📦 Vite + TypeScript + Vue Router + Sass + Axios
+- 📦 Vite + TypeScript + Vue Router + Sass + Tailwind CSS + Axios
 - 💡 SvgIcon (*svg sprite already configured*)
 - 🛠️ Basic styles/components
 

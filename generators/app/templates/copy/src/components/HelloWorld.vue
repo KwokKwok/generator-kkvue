@@ -1,7 +1,8 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Created by KwokStudio.</h2>
+  <div>
+    <h1 class="text-3xl">
+      {{ msg }}</h1>
+    <h2 class="text-xl m-2">Created by KwokStudio.</h2>
   </div>
 </template>
 
@@ -19,10 +20,3 @@ export default defineComponent({
   },
 });
 </script>
-
-<style scoped lang="scss">
-h1,
-h2 {
-  font-weight: normal;
-}
-</style>

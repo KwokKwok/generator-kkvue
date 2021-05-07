@@ -1,5 +1,5 @@
 <template>
-  <svg class="svg-icon">
+  <svg class="w-1 h-1 fill-current">
     <use
       xmlns:xlink="http://www.w3.org/1999/xlink"
       :xlink:href="id"
@@ -24,11 +24,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss">
-.svg-icon {
-  height: 1em;
-  width: 1em;
-  fill: currentColor;
-}
-</style>
